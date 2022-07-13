@@ -5,9 +5,6 @@
 
 Adafruit_INA219 ina219;
 File myFile;
-// const int chipSelect = 10;
-// char dataStr[100] = "";
-// char buffer[10];
 
 float shuntvoltage = 0;
 float busvoltage = 0;
