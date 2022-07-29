@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "ip6510")(type "KiCad")(uri "${KIPRJMOD}/ip6510.kicad_sym")(options "")(descr ""))
+  (lib (name "1_Resouce")(type "KiCad")(uri "${KIPRJMOD}/1_Resouce.kicad_sym")(options "")(descr ""))
+)
