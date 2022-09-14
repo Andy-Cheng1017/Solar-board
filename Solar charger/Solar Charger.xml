@@ -2,8 +2,13 @@
 <export version="E">
   <design>
     <source>D:\work\Solar-board\Solar charger\Solar Charger.kicad_sch</source>
+<<<<<<< HEAD
     <date>2022/9/6 下午 01:50:15</date>
     <tool>Eeschema (6.0.2)</tool>
+=======
+    <date>9/9/2022 12:58:30 AM</date>
+    <tool>Eeschema (6.0.7)</tool>
+>>>>>>> 38a26f0d6665a2b6170e5dec7f5217b18421aede
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Solar Power to USB with PD&amp;QC in MPPT</title>
@@ -542,7 +547,7 @@
       <tstamps>512978ce-74f7-4676-9cdc-95706ce5f098</tstamps>
     </comp>
     <comp ref="L2">
-      <value>L</value>
+      <value>22u</value>
       <footprint>Inductor_SMD:L_10.4x10.4_H4.8</footprint>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="Sheetname" value="IP6510 USB"/>
