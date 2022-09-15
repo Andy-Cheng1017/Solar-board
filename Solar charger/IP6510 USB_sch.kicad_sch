@@ -631,7 +631,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1b7abc99-ad47-483d-8f4a-7ebca9268ba0)
     (property "Reference" "L2" (id 0) (at 140.97 55.88 90))
-    (property "Value" "L" (id 1) (at 140.97 58.42 90))
+    (property "Value" "22u" (id 1) (at 140.97 58.42 90))
     (property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8" (id 2) (at 140.97 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -811,5 +811,45 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c57acccb-99be-4607-ab25-2bdff850d62f))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/ec1175d1-1bab-4b8d-ae80-0cf784214bf8"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5403a568-63d9-40cc-a753-fb6316d05a55"
+      (reference "C17") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/16e5afc8-ff48-4a61-aebb-707d83932b6e"
+      (reference "C18") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/c1da5aff-79c8-4d1c-ba9a-24c37276a15a"
+      (reference "C19") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/a19c7708-07b9-4e7c-af96-e793517d2808"
+      (reference "C20") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/4bef6a33-e19b-415f-bbcc-7e54b70d75ed"
+      (reference "C21") (unit 1) (value "220u") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+    )
+    (path "/512978ce-74f7-4676-9cdc-95706ce5f098"
+      (reference "C22") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/1b7abc99-ad47-483d-8f4a-7ebca9268ba0"
+      (reference "L2") (unit 1) (value "22u") (footprint "Inductor_SMD:L_10.4x10.4_H4.8")
+    )
+    (path "/5b422114-532e-4775-be5f-7c65f529b745"
+      (reference "R13") (unit 1) (value "2") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/571de38c-5803-4614-b839-1f13c9da8365"
+      (reference "R14") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/2df9c9f8-559b-4185-a144-00c57204afb9"
+      (reference "U6") (unit 1) (value "IP6510") (footprint "1Resouce:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias")
+    )
   )
 )

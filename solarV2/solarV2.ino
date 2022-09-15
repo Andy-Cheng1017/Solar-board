@@ -17,7 +17,7 @@ float power_W_3 = 0;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   while (!Serial)
   {
@@ -51,63 +51,72 @@ void setup()
       delay(10);
     }
   }
-  Serial.print("Solar Voltage");
+  Serial.print("Time_ms");
   Serial.print(",");
-  Serial.print("Solar Current");
+  Serial.print("Solar Voltage_V");
   Serial.print(",");
-  Serial.print("Solar Power");
+  Serial.print("Solar Current_mA");
   Serial.print(",");
-  Serial.print(",");
-  Serial.print("MPPT Voltage");
-  Serial.print(",");
-  Serial.print("MPPT Current");
-  Serial.print(",");
-  Serial.print("MPPT Power");
-  Serial.print(",");
-  Serial.print("MPPT Efficiency");
+  Serial.print("Solar Power_mW");
   Serial.print(",");
   Serial.print(",");
-  Serial.print("USB Voltage");
+  Serial.print("MPPT Voltage_V");
   Serial.print(",");
-  Serial.print("USB Current");
+  Serial.print("MPPT Current_mA");
   Serial.print(",");
-  Serial.print("USB Power");
+  Serial.print("MPPT Power_mW");
   Serial.print(",");
-  Serial.print("USB Efficiency");
+  Serial.print("MPPT Efficiency_%");
+  Serial.print(",");
+  Serial.print(",");
+  Serial.print("USB Voltage_V");
+  Serial.print(",");
+  Serial.print("USB Current_mA");
+  Serial.print(",");
+  Serial.print("USB Power_mW");
   Serial.println();
 
 }
 void loop()
 {
-  Serial.print("Solar Voltage");
+  //  shuntvoltage = INA219_1.getShuntVoltage_mV();
+  busvoltage_1 = INA219_1.getBusVoltage_V();
+  current_mA_1 = INA219_1.getCurrent_mA();
+  power_W_1 = INA219_1.getPower_mW();
+
+  busvoltage_2 = INA219_2.getBusVoltage_V();
+  current_mA_2 = INA219_2.getCurrent_mA();
+  power_W_2 = INA219_2.getPower_mW();
+
+  busvoltage_3 = INA219_3.getBusVoltage_V();
+  current_mA_3 = INA219_3.getCurrent_mA();
+  power_W_3 = INA219_3.getPower_mW();
+  Serial.print(millis());
   Serial.print(",");
-  Serial.print("Solar Current");
+  Serial.print(busvoltage_1);
   Serial.print(",");
-  Serial.print("Solar Power");
+  Serial.print(current_mA_1);
   Serial.print(",");
+  Serial.print(power_W_1);
   Serial.print(",");
-  Serial.print("MPPT Voltage");
+
   Serial.print(",");
-  Serial.print("MPPT Current");
+  Serial.print(busvoltage_2);
   Serial.print(",");
-  Serial.print("MPPT Power");
+  Serial.print(current_mA_2);
   Serial.print(",");
-  Serial.print("MPPT Efficiency");
+  Serial.print(power_W_2);
   Serial.print(",");
+  Serial.print(power_W_2 * 100 / power_W_1);
   Serial.print(",");
-  Serial.print("USB Voltage");
+
   Serial.print(",");
-  Serial.print("USB Current");
+  Serial.print(busvoltage_3);
   Serial.print(",");
-  Serial.print("USB Power");
+  Serial.print(current_mA_3);
   Serial.print(",");
-  Serial.print("USB Efficiency");
+  Serial.print(power_W_3);
   Serial.println();
-  // shuntvoltage = ina219.getShuntVoltage_mV();
-  //  busvoltage = ina219.getBusVoltage_V();
-  //  current_mA = ina219.getCurrent_mA();
-  //  power_mW = ina219.getPower_mW();
-  //
   //  myFile.print(millis());
   //  myFile.print(", ");
   //  myFile.print(busvoltage);
@@ -126,5 +135,5 @@ void loop()
   //  myFile.println(", ");
   //  // myFile.println(dataStr);
   //  myFile.close();
-//  delay(1000);
+  delay(500);
 }
