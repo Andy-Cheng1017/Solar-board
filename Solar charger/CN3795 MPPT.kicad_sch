@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Solar Power IN CN3795 OUT")
+  )
+
   (lib_symbols
     (symbol "1_Resouce:AP4435" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "AP4435" (id 0) (at 5.08 1.27 0)
