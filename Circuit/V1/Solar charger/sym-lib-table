@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "1_Resouce")(type "KiCad")(uri "${KIPRJMOD}/1_Resouce.kicad_sym")(options "")(descr ""))
+  (lib (name "solar_cell")(type "KiCad")(uri "D:/work/Solar-board/Circuit/V2/Solar charger/symbol/solar_cell.kicad_sym")(options "")(descr ""))
+)
