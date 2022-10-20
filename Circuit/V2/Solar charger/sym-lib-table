@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "SolarCharger")(type "KiCad")(uri "${KIPRJMOD}/symbol/SolarCharger.kicad_sym")(options "")(descr ""))
+  (lib (name "1CommonUse")(type "KiCad")(uri "${KIPRJMOD}/symbol/1CommonUse.kicad_sym")(options "")(descr ""))
+)
