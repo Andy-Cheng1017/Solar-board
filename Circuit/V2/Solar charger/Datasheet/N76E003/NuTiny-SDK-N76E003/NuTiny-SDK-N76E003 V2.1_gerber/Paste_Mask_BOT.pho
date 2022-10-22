@@ -1,0 +1,118 @@
+*
+*
+G04 PADS 9.5 Build Number: 522968 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "NuTiny-SDK-N76E003 V2.0"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD016C,0.01*%
+%ADD118C,0.0001*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name NuTiny-SDK-N76E003 V2.0 - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name NuTiny-SDK-N76E003 V2.0 - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name NuTiny-SDK-N76E003 V2.0 - circuitry*
+%LPD*%
+*
+G54D16*
+G01X139500Y239000D02*
+Y99000D01*
+X520500*
+Y239000*
+X139500*
+X340175Y130274D02*
+Y100213D01*
+X344112*
+Y130274*
+X340175*
+Y144146D02*
+Y135868D01*
+X344269*
+Y144146*
+X340175*
+X344269Y155413D02*
+X340175D01*
+Y150513*
+X344269*
+Y155413*
+X340175Y237213D02*
+Y191811D01*
+X344269*
+Y237213*
+X340175*
+Y174213D02*
+Y170213D01*
+X344269*
+Y174213*
+X340175*
+Y164513D02*
+Y160713D01*
+X344269*
+Y164513*
+X340175*
+Y184213D02*
+X344269D01*
+Y180213*
+X340175*
+Y184213*
+X515000Y179100D02*
+X519900D01*
+Y150000*
+X515000*
+Y179100*
+G54D118*
+X0Y0D02*
+M02*
