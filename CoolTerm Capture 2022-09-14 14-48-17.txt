@@ -1,0 +1,33 @@
+,,5.ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:1344
+load:0x40078000,len:13864
+load:0x40080400,len:3608
+entry 0x400805f0
+Time_ms,Solar Voltage_V,Solar Current_mA,Solar Power_mW,,MPPT Voltage_V,MPPT Current_mA,MPPT Power_mW,MPPT Efficiency_%,,USB Voltage_V,USB Current_mA,USB Power_mW,USB Efficiency_%
+66,13.50,27.90,376.00,,9.14,24.30,222.00,59.04,,5.06,4.80,22.00,9.91
+574,13.49,28.30,384.00,,9.14,24.30,220.00,57.29,,5.06,4.80,26.00,11.82
+1082,13.48,27.90,376.00,,9.14,24.10,220.00,58.51,,5.07,4.90,26.00,11.82
+1590,13.51,28.10,380.00,,9.14,24.30,222.00,58.42,,5.16,5.00,26.00,11.71
+2098,13.52,28.80,386.00,,9.14,24.50,220.00,56.99,,5.03,5.30,26.00,11.82
+2606,13.52,28.50,380.00,,9.14,24.10,220.00,57.89,,5.15,5.10,26.00,11.82
+3114,13.50,28.10,380.00,,9.14,23.90,216.00,56.84,,5.16,5.00,26.00,12.04
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:1344
+load:0x40078000,len:13864
+load:0x40080400,len:3608
+entry 0x400805f0
+Time_ms,Solar Voltage_V,Solar Current_mA,Solar Power_mW,,MPPT Voltage_V,MPPT Current_mA,MPPT Power_mW,MPPT Efficiency_%,,USB Voltage_V,USB Current_mA,USB Power_mW,USB Efficiency_%
+66,13.53,27.60,374.00,,9.16,23.30,212.00,56.68,,5.01,5.00,22.00,10.38
+574,13.53,27.20,368.00,,9.16,23.20,212.00,57.61,,5.04,4.90,26.00,12.26
+1082,13.53,27.90,376.00,,9.16,23.40,212.00,56.38,,5.06,5.20,26.00,12.26
+1590,13.52,28.10,380.00,,9.16,24.00,220.00,57.89,,5.08,5.10,26.00,11.82
